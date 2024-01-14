@@ -11,7 +11,7 @@
  Target Server Version : 50731
  File Encoding         : 65001
 
- Date: 14/01/2024 23:07:44
+ Date: 14/01/2024 23:15:40
 */
 
 SET NAMES utf8mb4;
@@ -372,6 +372,33 @@ INSERT INTO `cloud_book_lend_records` (`id`, `user_id`, `book_id`, `days`, `crea
 INSERT INTO `cloud_book_lend_records` (`id`, `user_id`, `book_id`, `days`, `create_time`, `update_time`, `creator`, `updater`, `deleted`) VALUES (7, 1, 3, 12, '2024-01-14 16:31:56', '2024-01-14 16:31:56', '1', '1', b'0');
 INSERT INTO `cloud_book_lend_records` (`id`, `user_id`, `book_id`, `days`, `create_time`, `update_time`, `creator`, `updater`, `deleted`) VALUES (8, 1, 2, 12, '2024-01-14 16:32:35', '2024-01-14 16:32:35', '1', '1', b'0');
 INSERT INTO `cloud_book_lend_records` (`id`, `user_id`, `book_id`, `days`, `create_time`, `update_time`, `creator`, `updater`, `deleted`) VALUES (9, 1, 4, 12, '2024-01-14 16:42:32', '2024-01-14 16:42:32', '1', '1', b'0');
+COMMIT;
+
+-- ----------------------------
+-- Table structure for cloud_book_user
+-- ----------------------------
+DROP TABLE IF EXISTS `cloud_book_user`;
+CREATE TABLE `cloud_book_user` (
+  `user_id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_name` varchar(255) DEFAULT NULL,
+  `password` varchar(255) DEFAULT NULL,
+  `user_nickname` varchar(255) DEFAULT NULL,
+  `user_phone` varchar(12) DEFAULT NULL,
+  `user_sex` int(1) DEFAULT NULL,
+  `user_age` int(2) DEFAULT NULL,
+  `user_address` varchar(255) DEFAULT NULL,
+  `create_time` datetime DEFAULT NULL,
+  `update_time` datetime DEFAULT NULL,
+  `creator` varchar(255) DEFAULT NULL,
+  `updater` datetime DEFAULT NULL,
+  `deleted` bit(1) DEFAULT b'0',
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- ----------------------------
+-- Records of cloud_book_user
+-- ----------------------------
+BEGIN;
 COMMIT;
 
 -- ----------------------------
