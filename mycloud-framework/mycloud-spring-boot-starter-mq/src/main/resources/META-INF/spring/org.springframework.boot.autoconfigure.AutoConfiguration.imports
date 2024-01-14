@@ -1,0 +1,3 @@
+com.book.cloud.framework.mq.redis.config.MycloudRedisMQProducerAutoConfiguration
+com.book.cloud.framework.mq.redis.config.MycloudRedisMQConsumerAutoConfiguration
+com.book.cloud.framework.mq.rabbitmq.config.MycloudRabbitMQAutoConfiguration

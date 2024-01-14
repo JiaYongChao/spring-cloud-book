@@ -1,0 +1,2 @@
+com.book.cloud.framework.datapermission.config.MycloudDataPermissionAutoConfiguration
+com.book.cloud.framework.datapermission.config.MycloudDeptDataPermissionAutoConfiguration

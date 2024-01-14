@@ -1,0 +1,2 @@
+com.book.cloud.framework.datasource.config.MycloudDataSourceAutoConfiguration
+com.book.cloud.framework.mybatis.config.MycloudMybatisAutoConfiguration

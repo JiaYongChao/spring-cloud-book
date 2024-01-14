@@ -1,0 +1,2 @@
+com.book.cloud.framework.quartz.config.MycloudXxlJobAutoConfiguration
+com.book.cloud.framework.quartz.config.MycloudAsyncAutoConfiguration

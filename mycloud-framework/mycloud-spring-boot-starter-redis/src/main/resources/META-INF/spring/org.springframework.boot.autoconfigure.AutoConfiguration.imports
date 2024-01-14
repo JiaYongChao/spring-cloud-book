@@ -1,0 +1,2 @@
+com.book.cloud.framework.redis.config.MycloudRedisAutoConfiguration
+com.book.cloud.framework.redis.config.MycloudCacheAutoConfiguration

@@ -1,0 +1,2 @@
+com.book.cloud.framework.tracer.config.MycloudTracerAutoConfiguration
+com.book.cloud.framework.tracer.config.MycloudMetricsAutoConfiguration

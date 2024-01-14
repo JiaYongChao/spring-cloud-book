@@ -1,0 +1,5 @@
+com.book.cloud.framework.apilog.config.MycloudApiLogAutoConfiguration
+com.book.cloud.framework.jackson.config.MycloudJacksonAutoConfiguration
+com.book.cloud.framework.swagger.config.MycloudSwaggerAutoConfiguration
+com.book.cloud.framework.web.config.MycloudWebAutoConfiguration
+com.book.cloud.framework.apilog.config.MycloudApiLogRpcAutoConfiguration

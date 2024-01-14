@@ -1,0 +1,3 @@
+com.book.cloud.framework.security.config.MycloudSecurityRpcAutoConfiguration
+com.book.cloud.framework.security.config.MycloudSecurityAutoConfiguration
+com.book.cloud.framework.security.config.MycloudWebSecurityConfigurerAdapter
