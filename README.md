@@ -4,6 +4,8 @@
 2.配置安装redis
 3.下载kafka，并启动
 4.下载xxl-job，并打包，创建相应的数据库并启动
-5.使用maven package 打包各个项目
-6.使用nohup java -jar your_jar_file.jar >/dev/null 2>&1 & 启动项目
-7.启动顺序，先启动gateway，再启动system，infra，随后启动各个业务服务
+5.修改项目中的各个配置，主要是application-local.yml 中的数据库
+6.使用maven package 打包各个项目
+mvn clean package -Dmaven.test.skip=true
+7.使用nohup java -jar your_jar_file.jar >/dev/null 2>&1 & 启动项目
+8.启动顺序，先启动gateway，再启动system，infra，随后启动各个业务服务

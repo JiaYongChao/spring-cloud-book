@@ -173,5 +173,5 @@ public interface ErrorCodeConstants {
 
 
     ErrorCode BOOK_NOT_FOUND = new ErrorCode(1_002_009_001, "当前图书不存在");
-
+    ErrorCode BOOK_USER_EXISTS = new ErrorCode(1_002_010_001, "图书用户已存在");
 }
