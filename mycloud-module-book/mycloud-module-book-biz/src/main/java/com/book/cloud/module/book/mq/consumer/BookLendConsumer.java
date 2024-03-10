@@ -29,5 +29,6 @@ public class BookLendConsumer {
         log.info("[onMessage][消息内容({})]", jsonMessage);
         BookDO bookDO = JsonUtils.parseObject(jsonMessage, BookDO.class);
         bookService.updateBookInfo(bookDO);
+        bookService.createBook(bookDO);
     }
 }
